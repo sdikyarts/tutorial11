@@ -38,22 +38,22 @@
 2. Deploying spring-petclinic-rest using Recreate strategy:
 
    - Start a minikube cluster
-      [minikube start](img/minikube_start.png)
+      ![minikube start](img/minikube_start.png)
    - Create the same deployment as the one in the tutorial
-      [create deployment](img/create_deployment.png)
+      ![create deployment](img/create_deployment.png)
    - Expose the service
-      [expose service](img/expose_service.png)
+      ![expose service](img/expose_service.png)
    - Edit the deployment to use Recreate strategy
-      [edit deployment](img/edit_deployment.png)
+      ![edit deployment](img/edit_deployment.png)
    - Change the deployment strategy to Recreate
-      [change strategy](img/change_strategy.png)
+      ![change strategy](img/change_strategy.png)
    - After applying the changes, start the service
-      [start service](img/start_service.png)
+      ![start service](img/start_service.png)
 
 3. Prepare different manifest files for executing Recreate deployment strategy.
 
    Since we already have manifest files for the rolling update strategy, make new ones for Recreate.
-   [create new manifest files](img/create_manifest_files.png)
+   ![create new manifest files](img/create_manifest_files.png)
 
 4. Benefits of creating new manifest files:
 
